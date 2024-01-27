@@ -10,7 +10,7 @@ Can be paired with FMD2 and Komga or Kavita.
 Existing files are not modified.
 
 Example docker-compose:
-``` dockerfile
+```dockerfile
 services:
     pymergetagger:
         image: realblack7/pymergetagger:latest
@@ -24,3 +24,6 @@ services:
 - [ ] port pyQT GUI to a webpage to edit existing files manually
 - [ ] add more metadata providers like mangaUpdates, mal, aniList, mangaDex, comicvine
 - [ ] mix/aggregate metadata from different providers
+
+## Docker
+The container can be pulled from [https://hub.docker.com/r/realblack7/pymergetagger](https://hub.docker.com/r/realblack7/pymergetagger)
