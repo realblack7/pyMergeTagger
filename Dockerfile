@@ -28,6 +28,6 @@ RUN wget -O firefox-setup.tar.bz2 "https://download.mozilla.org/?product=firefox
     ln -s /opt/firefox/firefox /usr/bin/firefox && \
     rm firefox-setup.tar.bz2
 
-COPY . .
+COPY pyMergeTagger.py .
 
 CMD [ "python3", "pyMergeTagger.py" ]
